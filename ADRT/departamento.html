@@ -1,0 +1,336 @@
+﻿<html>
+
+<head>
+ <link rel="stylesheet" href="style.css"/>
+ <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+ <link href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css" rel="stylesheet">
+ 
+ <script src="//code.jquery.com/jquery-2.1.0.min.js" type="text/javascript"></script>
+<style>	
+#topo{
+	background-color:white;
+	width:100%;
+	height:110px;
+	
+}
+#texto{
+	position: relative;
+	width:65%;
+	height:300px;
+	top:2%;
+	left:20%;
+	font-size:120%;
+	font:Arial;
+	color:black;
+	
+}
+#titulosite{
+	position: relative;
+	width:19%;
+	height:85px;
+	top:20%;
+	left:1%;
+	font-size:150%;
+	font:Arial;
+	color:white;
+	
+}
+#caixapesquisa{
+	position: top;
+	float:right;
+	font-size:100%;
+	font:Arial;
+	
+}
+
+#menusite{
+	background-color:purple;
+	width:100%;
+	height:25px;
+	
+}
+
+#banner{
+	background-color:orange;
+	width:100%px;
+	height:300px;
+	
+}
+
+#botaobanner{
+	background-color:orange;
+	width:80px;
+	height:50px;
+	position: absolute;
+	top:400px;
+	left:100px
+	
+}
+#bodycardapio{
+	width:70%;
+	height:250px;
+	margin-left: 17%;
+}
+#itemcardapio{
+	background-color:;
+	float: left;
+	width:26%;
+	height:100%;
+	border-color: purple;
+	margin-left: 5%;
+
+	
+}
+#tituloitemcardapio{
+	text-align:center;
+	font:Arial;
+	font-size: 30px;
+	color:#005c83;
+	
+}
+#imagemitemcardapio{
+	width:100%;
+	height:90%;
+	
+}
+#imgcardapio{
+	width:100%;
+	height:90%;
+}
+
+#labellink{
+	float:left;
+	width:75px;
+	height:30px
+	font:Arial;
+	color:white;
+	background:purple;
+	text-align:center;
+	text-decoration:none;
+	}
+#labellink2{
+	float:left;
+	width:80px;
+	height:50pxs
+	font:Arial;
+	font-size: 200%;
+	color:white;
+	background:orange;
+	text-align:center;
+	text-decoration:none;
+	}
+#imgbanner{
+	width:100%;
+	height:100%;
+	
+}
+footer{
+	background-color:lightslategrey;
+	width:100%;
+	height:20px
+
+}
+#footertitulo{
+	float:left;
+	font:Arial;
+	color:white;
+	text-decoration:none;
+	position:relative;
+	left: 1%;
+}
+
+.galeria{
+	margin: 10px auto;
+	width: 680px;
+	height: 470px;
+	position: relative;
+	overflow:  hidden;
+}
+.foto{
+	position: absolute;
+	opacity: 0;
+	animation-name: animacao;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;	   
+}
+@keyframes animacao{
+
+	25%{
+		opacity: 1;
+		transform: scale(1.1,1.1);
+	}
+	50%{
+		opacity: 0;
+	}
+
+}
+
+.foto:nth-child(1){
+
+}
+.foto:nth-child(2){
+	animation-delay: 5s;
+}
+.foto:nth-child(3){
+	animation-delay: 10s;
+}
+.foto:nth-child(4){
+	animation-delay: 15s;
+}
+
+
+</style>
+
+</head>
+
+<body id="body">
+	
+
+	<div id="topo">
+		<div id="titulosite">
+			<label>
+				<img id="imgcardapio" src="logo.png" alt="salada">
+				<h1></h1>
+			</label>
+		</div>
+		<div id="caixapesquisa">
+			<label>
+				Buscar: <input type="text"></input><input type="submit" value="OK">
+			</label>
+		</div>
+	</div>
+	
+
+	<nav class="nav-bar">
+    <div class="nav-container"> 
+        <a id="nav-menu" class="nav-menu">☰ Menu</a>
+        <ul class="nav-list " id="nav">
+            <li> <a href="index.html" id="tile1"><i class="icon ion-ios7-home-outline"></i> Inicio</a></li>
+            <li> <a href="sobre.html" id="tile2"><i class="icon ion-ios7-person-outline"></i> Sobre</a></li>
+            <li> <a href="departamento.html" id="tile3"><i class="icon ion-ios7-briefcase-outline"></i> Dep</a></li>
+            <li> <a href="congregação.html" id="tile4"><i class="ion-ios7-monitor-outline"></i> Congreg</a></li>
+            <li> <a href="membros.html" id="tile5"><i class="ion-ios7-people-outline"></i>Noticías</a></li>
+            <li> <a href="localizacao.html" id="tile6"><i class="ion-bag"></i> Localição</a></li>
+            <li> <a href="midia.html" id="tile7"><i class="ion-ios7-paper-outline"></i> Mídia</a></li>
+            <li> <a href="contato.html" id="tile8"><i class="ion-ios7-email-outline"></i> Contato</a></li>
+        </ul>
+    </div>
+</nav>
+	
+	<div id="menusite">
+				
+	</div>
+	<br><br>
+	<div id="texto">
+	
+	<h2>Departamentos e Secrétaria </h2>
+	
+			<p align="left">Além dos cultos normais, a igreja tem trabalhos específicos dentro de seus diversos departamentos como se organiza: Mocidade, Infantil, Senhoras, Escola Bíblica Dominical, Evangelismo e Missões. Estas divisões devidamente organizadas por uma diretoria em cada departamento tornam o trabalho dinâmico e extensivo a todas as idades. A Palavra de Deus tem sido pregada todos os dias e de várias formas. Agora, chegamos até você através da Rede Mundial de Computadores, a Internet com o mesmo objetivo: CUMPRIR O “IDE” IMPERATIVO DO NOSSO SENHOR JESUS, DIVULGANDO O EVANGELHO EM TODA A PARTE DO MUNDO. “E disse-lhes: Ide por todo o mundo, pregai o evangelho a toda criatura”. (Mc 16.15).
+
+		
+<p/>	
+</div>
+		
+	<div id="bodycardapio">
+		<div id="itemcardapio">
+			<div id="tituloitemcardapio">
+			UMAD
+			</div>
+			<div id="imagemitemcardapio">
+					<a href="file:///C:/Users/Elenilton/Desktop/menu/avansado1/exercicio02a.html">
+			<img src="UMAD.png" alt="UMAD" title="União da Mocidade das AD" width="280" height="203"> 
+		</a>
+			</div>
+			
+		</div>
+		<div id="itemcardapio">
+			<div id="tituloitemcardapio">
+			DEFAD
+			</div>
+			<div id="imagemitemcardapio">
+				<a href="file:///C:/Users/Elenilton/Desktop/menu/avansado1/exercicio02a.html">
+			<img src="dps.png" alt="macarrao" title="Departamento Feminino das AD" width="280" height="203"> 
+		</a>
+			</div>
+		</div>
+		<div id="itemcardapio">
+			<div id="tituloitemcardapio">
+			DEPIN
+			</div>
+			<div id="imagemitemcardapio">
+				<a href="file:///C:/Users/Elenilton/Desktop/menu/avansado1/exercicio02a.html">
+			<img src="depin.jpg" alt="Departamento infantil" title="Departamento infantil" width="280" height="203"> 
+		</a>
+			</div>
+		</div>
+		
+
+
+		<div id="itemcardapio">
+			<div id="tituloitemcardapio">
+			SEMAD
+			</div>
+			<div id="imagemitemcardapio">
+				<a href="file:///C:/Users/Elenilton/Desktop/menu/avansado1/exercicio02a.html">
+			<img src="semad.jpg" alt="macarrao" title="Secretaria de Missões" width="280" height="203"> 
+		</a>
+			</div>
+		</div>
+				<div id="itemcardapio">
+			<div id="tituloitemcardapio">
+			DEVAN
+			</div>
+			<div id="imagemitemcardapio">
+				<a href="file:///C:/Users/Elenilton/Desktop/menu/avansado1/exercicio02a.html">
+			<img src="DEVAN.jpg" alt="Departamento de Evangelismo" title="Departamento de Evangelismo" width="300" height="203"> 
+		</a>
+			</div>
+		</div>
+		<div id="itemcardapio">
+			<div id="tituloitemcardapio">
+			EBD
+			</div>
+			<div id="imagemitemcardapio">
+				<a href="file:///C:/Users/Elenilton/Desktop/menu/avansado1/exercicio02a.html">
+			<img src="EBD1.jpg" alt="Departamento de Escola Bíblica Dominical" title="Departamento de Escola Bíblica Dominical" width="300" height="203"> 
+		</a>
+			</div>
+		</div>
+		<div id="itemcardapio">
+			<div id="tituloitemcardapio">
+			DERA
+			</div>
+			<div id="imagemitemcardapio">
+				<a href="file:///C:/Users/Elenilton/Desktop/menu/avansado1/exercicio02a.html">
+			<img src="radio2.jpg" alt="Departamento de Rádio" title="Departamento de Rádio" width="300" height="203"> 
+		</a>
+			</div>
+		</div>
+		<div id="itemcardapio">
+			<div id="tituloitemcardapio">
+			DEASO
+			</div>
+			<div id="imagemitemcardapio">
+				<a href="file:///C:/Users/Elenilton/Desktop/menu/avansado1/exercicio02a.html">
+			<img src="social.jpg" alt="Departamento de Ação social" title="Departamento de Ação social" width="300" height="203"> 
+		</a>
+			</div>
+		</div>
+
+
+		</div>	
+		
+		
+
+	<div id=""></div>
+	
+	</div>
+
+
+	
+	<div id=""></div>
+	<div id=""></div>
+	<div id=""></div>
+	
+</body>
+</html>

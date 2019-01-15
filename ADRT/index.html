@@ -1,0 +1,298 @@
+﻿<html>
+
+<head>
+ <link rel="stylesheet" href="style.css"/>
+ <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+ <link href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css" rel="stylesheet">
+ 
+ <script src="jquery-3.3.1.min.js" type="text/javascript"></script>
+ <script src="script.js" type="text/javascript"></script>
+
+<style>	
+#topo{
+	background-color:white;
+	width:100%;
+	height:110px;
+	
+}
+#titulosite{
+	position: relative;
+	width:19%;
+	height:85px;
+	top:20%;
+	left:1%;
+	font-size:150%;
+	font:Arial;
+	color:white;
+	
+}
+#texto{
+	position: relative;
+	width:65%;
+	height:500px;
+	top:5%;
+	left:20%;
+	font-size:120%;
+	font:Arial;
+	color:black;
+	
+}
+#caixapesquisa{
+	position: top;
+	float:right;
+	font-size:100%;
+	font:Arial;
+	
+}
+
+#menusite{
+	background-color:purple;
+	width:100%;
+	height:25px;
+	
+}
+
+#banner{
+	background-color:orange;
+	width:100%px;
+	height:200px;
+	
+}
+
+#botaobanner{
+	background-color:orange;
+	width:80px;
+	height:50px;
+	position: absolute;
+	top:400px;
+	left:100px
+	
+}
+#bodycardapio{
+	width:100%;
+	height:250px;
+}
+#itemcardapio{
+	background-color:;
+	float: left;
+	width:26%;
+	height:100%;
+	border-color: purple;
+	margin-left: 5%;
+
+	
+}
+#tituloitemcardapio{
+	text-align:center;
+	font:Arial;
+	font-size: 30px;
+	color:Red;
+	
+}
+#imagemitemcardapio{
+	width:100%;
+	height:90%;
+	
+}
+#imgcardapio{
+	width:100%;
+	height:90%;
+}
+
+#labellink{
+	float:left;
+	width:75px;
+	height:30px
+	font:Arial;
+	color:white;
+	background:purple;
+	text-align:center;
+	text-decoration:none;
+	}
+#labellink2{
+	float:left;
+	width:80px;
+	height:50pxs
+	font:Arial;
+	font-size: 200%;
+	color:white;
+	background:orange;
+	text-align:center;
+	text-decoration:none;
+	}
+#imgbanner{
+	width:100%;
+	height:100%;
+	
+}
+footer{
+	background-color:lightslategrey;
+	width:100%;
+	height:20px
+
+}
+#footertitulo{
+	float:left;
+	font:Arial;
+	color:white;
+	text-decoration:none;
+	position:relative;
+	left: 1%;
+}
+
+.galeria{
+	margin: 10px auto;
+	width: 680px;
+	height: 470px;
+	position: relative;
+	overflow:  hidden;
+}
+.foto{
+	position: absolute;
+	opacity: 0;
+	animation-name: animacao;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;	   
+}
+@keyframes animacao{
+
+	25%{
+		opacity: 1;
+		transform: scale(1.1,1.1);
+	}
+	50%{
+		opacity: 0;
+	}
+
+}
+
+.foto:nth-child(1){
+
+}
+.foto:nth-child(2){
+	animation-delay: 5s;
+}
+.foto:nth-child(3){
+	animation-delay: 10s;
+}
+.foto:nth-child(4){
+	animation-delay: 15s;
+}
+
+
+</style>
+
+</head>
+
+<body id="body">
+	
+
+	<div id="topo">
+		<div id="titulosite">
+			<label>
+				<img id="imgcardapio" src="logo.png" alt="ADRT">
+				<h1></h1>
+
+			</label>
+		</div>
+		<div id="caixapesquisa">
+			<label>
+				Buscar: <input type="text"></input><input type="submit" value="OK">
+			</label>
+		</div>
+	</div>
+	
+
+	<nav class="nav-bar">
+    <div class="nav-container"> 
+        <a id="nav-menu" class="nav-menu">☰ Menu</a>
+        <ul class="nav-list " id="nav">
+            <li> <a href="index.html" id="tile1"><i class="icon ion-ios7-home-outline"></i> Inicio</a></li>
+            <li> <a href="sobre.html" id="tile2"><i class="icon ion-ios7-person-outline"></i> Sobre</a></li>
+            <li> <a href="departamento.html" id="tile3"><i class="icon ion-ios7-briefcase-outline"></i> Dep</a></li>
+            <li> <a href="congregação.html" id="tile4"><i class="ion-ios7-monitor-outline"></i> Congreg</a></li>
+            <li> <a href="membros.html" id="tile5"><i class="ion-ios7-people-outline"></i>Noticías</a></li>
+            <li> <a href="localizacao.html" id="tile6"><i class="ion-bag"></i> Localição</a></li>
+            <li> <a href="midia.html" id="tile7"><i class="ion-ios7-paper-outline"></i> Mídia</a></li>
+            <li> <a href="contato.html" id="tile8"><i class="ion-ios7-email-outline"></i> Contato</a></li>
+        </ul>
+    </div>
+</nav>
+	
+	<div id="menusite">
+				
+	</div>
+	<div id="banner">
+		<img id="imgbanner" src="vir.png" alt="banner">
+		
+	</div>
+
+	<section class="galeria">
+		<img src="EBD.jpg" alt="" class="foto">
+		<img src="cultos.jpg" alt="" class="foto">
+		<img src="santaceia.jpg" alt="" class="foto">
+		<img src="radio.jpg" alt="" class="foto">
+		
+	</section>
+	<div id="texto">
+	
+	<h2>Quem somos</h2>
+	
+			<p align="left">
+
+		<div id="box-toggle">Somos a Igreja Evangélica Assembléia de Deus em Rio Tinto, cidade localizada a aproximadamente 60 km ao norte de João Pessoa, capital do Estado da Paraíba. A Assembléia de Deus representa a maior denominação evangélica do Brasil, do Estado e em Rio Tinto não é diferente. É a maior denominação com forte tendência a expandir-se ainda mais. Nos últimos anos, quase todas as congregações passaram ou estão passando por reformas de ampliação para comportar os seus membros, pois o braço do Senhor tem alcançado a muitos tornando necessário inclusive a construção de novos templos. O Templo Central também passa por período de construção. Este Novo prédio o qual já estamos congregando em sua nave inferior tem a capacidade de acomodar até 700 pessoas devidamente sentadas. A igreja é atualmente pastoreada pelo Pr.Raimundo Lucio o qual assumiu pela terceira vez o trabalho desta cidade no dia 26 de Agosto de 2017.  Além dos cultos normais, a igreja tem trabalhos específicos dentro de seus diversos departamentos como se organiza: Mocidade, Infanto-Juvenil, Senhoras, Escola Bíblica Dominical, Evangelismo e Missões. Estas divisões devidamente organizadas por uma diretoria em cada departamento tornam o trabalho dinâmico e extensivo a todas as idades. A Palavra de Deus tem sido pregada todos os dias e de várias formas. Agora, chegamos até você através da Rede Mundial de Computadores, a Internet com o mesmo objetivo: CUMPRIR O “IDE” IMPERATIVO DO NOSSO SENHOR JESUS, DIVULGANDO O EVANGELHO EM TODA A PARTE DO MUNDO. “E disse-lhes: Ide por todo o mundo, pregai o evangelho a toda criatura”. (Mc 16.15).
+
+    <div class="tgl">
+        <p>O que é a Assembléia de Deus<br><br>
+
+		A Assembléia de Deus é uma igreja evangélica pentecostal que prima pela ortodoxia doutrinária. Tendo a Bíblia como a sua única regra de fé e prática, acha-se comprometida com a evangelização do Brasil e do mundo, conformando-se plenamente com as reivindicações da Grande Comissão.
+		O seu Credo e declaração de Fé e realça a salvação pela fé no sacrifício vicário de Cristo, a atualidade do batismo no Espírito Santo e dos dons espirituais e a bendita esperança na segunda vinda do Senhor Jesus.
+
+		Consciente de sua missão, a Assembléia de Deus não prevalece do fato de ter, segundo algumas estatísticas, em torno de mais de vinte milhões de membros. Apesar de possuir um considerável poder político, optou por agir profética e sacerdotalmente. Se por um lado, protesta contra as iniqüidades sociais, por outro, não pode descurar de suas responsabilidades intercessoras.
+
+		<br><br>Compromisso com a Proclamação da Palavra de Deus<br><br>
+
+		Sendo uma comunidade de fé, serviço e adoração, a Assembléia de Deus não pode furtar-se às suas obrigações – proclamar o Evangelho de Cristo e promover espiritual, moral e socialmente o povo de Deus. Somente assim, estaremos nos firmando, definitivamente, como agência do Reino de Deus.
+
+		<br><br>História da Assembléia de Deus no Brasil<br><br>
+
+		No início do século XX, apesar da presença de imigrantes alemães e suíços de origem protestante e do valoroso trabalho de missionários de igrejas evangélicas tradicionais, nosso país era quase que totalmente católico.<br>
+
+		Quando Daniel Berg e Gunnar Vingren chegaram ao Brasil, em 19 de novembro de 1910, ninguém poderia imaginar que aqueles dois jovens suecos estavam para iniciar um movimento que alteraria profundamente o perfil religioso e até social do Brasil por meio da pregação do Evangelho de Jesus Cristo como o único e suficiente Salvador da Humanidade e a atualidade do Batismo no Espírito Santo e dos dons espirituais.<br>
+
+		A história da Assembléia de Deus no Brasil tem origem no chamado de dois missionários suecos, Daniel Berg e Gunnar Vingren. Após receberem o batismo com o Espírito Santo – com evidência de falar em outras línguas – durante o avivamento em Los Angeles e Chicago no início do século 20, Deus os escolheu para juntos trazerem mensagem pentecostal para o Brasil.<br>
+
+		O chamado aconteceu de forma sobrenatural: através de uma profecia, foi revelado que os dois deveriam ir ao Pará. Somente após procurar no mapa mundial os dois missionários tomaram conhecimento de que o local ficava no norte do Brasil. Em obediência à chamada divida, Daniel Berg e Gunnar Vingren chegaram a Belém no dia 19 de novembro de 1910.<br>
+
+		Além da barreira do idioma, os dois missionários sofreram com a falta de recursos financeiros, pois, além de serem pobres, não eram mantidos por nenhuma junta missionária. No início, Daniel Berg e Gunnar Vingren participavam de cultos em igrejas protestantes cantando hinos em sueco. Quando passaram a entender o idioma local, iniciaram a testificar de Jesus, enfatizando a salvação, o batismo com o Espírito Santo, a cura divina e o uso dos dons espirituais.<br>
+
+		A doutrina pentecostal ministrada com a devida base bíblica foi assimilada por parte dos crentes, mas rejeitada por outros. Seis meses depois da chegada a Belém, Vingren foi convidado para dirigir um culto de oração e falou da necessidade de o crente ser revestido do poder do alto. A maioria dos presentes alegrou-se com a mensagem e outras reuniões de oração foram realizadas em casas de crentes que queriam o batismo no Espírito Santo como uma realidade em suas vidas. A evidência da mensagem pentecostal levou a direção da Igreja Batista a uma tomada de posição. Em uma reunião extraordinária, foi solicitado que todos os que estivessem de acordo com a nova doutrina se manifestassem. Para surpresa geral, a maioria levantou-se. Uns porque já eram batizados com o Espírito Santo, e os outros, porque criam que poderiam receber a promessa. No dia 18 de junho de 1911, por deliberação unânime, foi fundada a Missão de Fé Apostólica, posteriormente denominada de Assembléia de Deus. Supõe-se que o nome escolhido para a nova denominação esteja ligado às igrejas que na América do Norte professavam a mesma doutrina e foram denominados de Assembléia de Deus ou Igreja Pentecostal.<br>
+
+		Estabelecida a Assembléia de Deus, os novos convertidos sentiram de imediato o impulso do Espírito Santo, saindo em busca das pessoas, seguindo os passos de Gunnar Vingren e Daniel Berg. Os resultados, testemunhados com salvação, batismo com o Espírito Santo e também com curas divinas, deram à igreja pentecostal a dimensão que hoje vemos. O rápido crescimento exigiu a consagração de pastores e norteou a expansão ministerial da igreja. Em Belém e aonde iam, aceitando a fé e comprovando a chamada divina, os obreiros separados saíam destemidamente anunciando a Palavra de Deus, sob a unção do Espírito Santo. O grande crescimento da obra levou os pastores consagrados a assumirem trabalhos em outras localidades e estados, ampliando as fronteiras da mensagem pentecostal no Brasil.
+
+		Atualmente o testemunho pentecostal da Igreja Assembléia de Deus está presente em todo o Brasil. Os templos e congregações da igreja são verdadeiras agências do Reino de Deus em qualquer cidade ou lugarejo desta nação, mesmo nos lugares de mais difícil acesso.<br>
+
+		Através de um início simples, mas sob a bênção de Deus, a mensagem pentecostal chegou ao Brasil através de Belém do Pará, a “Casa do Pão” de todos os pentecostais brasileiros. Esta mensagem originada nos céus alcançou milhões de pessoas em todo o País, fazendo da Assembléia de Deus a maior igreja evangélica do Brasil, local onde Deus fez e continua a fazer coisas maravilhosas.<br>
+
+		Em poucas décadas, a Assembléia de Deus, a partir de Belém do Pará, onde nasceu, começou a penetrar em todas as vilas e cidades até alcançar os grandes centros urbanos como São Paulo, Rio de Janeiro, Belo Horizonte, Porto Alegre, enfim em todo território nacional. A Assembléia de Deus chegou à cidade de Mamanguape chegou em 1919 através de irmãos desehslos de expandir este evangelho que salva, liberta, cura, levanta o homem do pó e batiza no Espírito Santo. Louvemos a Deus pela herança registrada em testamento por Nosso Senhor e Salvador Jesus Cristo! Continuemos, pois a anunciar as boas novas e oremos para que não somente a cidade de Mamanguape, mas todo o nosso Brasil venha a conhecer e entregar ao Senhor as suas vidas, tornando-se verdadeiros adoradores. “Como escaparemos nós, se não atentarmos para uma tão grande salvação, a qual, começando a ser anunciada pelo Senhor, foi-nos depois confirmada pelos que a ouviram; Testificando também Deus com eles, por sinais, e milagres, e várias maravilhas e dons do Espírito Santo, distribuídos por sua vontade”? Hb 2.3-4<br>
+
+		A compilação e a organização dos registros históricos constantes desta matéria foram baseadas nas informações dos livros já publicados bem como pelo site oficial da Assembléia de Deus em Belém, PA.<br><br><br>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/yySIYjDrTgU?start=231" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+	
+<p/>	
+</div>
+		
+	
+	<div id=""></div>
+	
+	</div>
+
+	
+	<div id=""></div>
+	<div id=""></div>
+	<div id=""></div>
+	
+</body>
+</html>
